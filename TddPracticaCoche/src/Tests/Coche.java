@@ -2,18 +2,18 @@ package Tests;
 
 public class Coche {
 
-	public int velocidad;
+	public int velocidad_Francisco_Salar;
 
-	public void acelerar(int aceleracion) {
+	public void acelerar_Francisco_Salar(int aceleracion) {
 		
-		velocidad += aceleracion;
+		velocidad_Francisco_Salar += aceleracion;
 		
 	}
 
-	public void decelerar(int deceleracion) {
+	public void decelerar_Francisco_Salar(int deceleracion) {
 		
-		velocidad -= deceleracion;
-		if (velocidad < 0) velocidad = 0;
+		velocidad_Francisco_Salar -= deceleracion;
+		if (velocidad_Francisco_Salar < 0) velocidad_Francisco_Salar = 0;
 		
 	}
 
